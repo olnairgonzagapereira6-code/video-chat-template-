@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App' // Removido o .js
-import './index.css'
+import App from './App' 
+import './styles/global.css' // Caminho atualizado para a nova pasta
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
