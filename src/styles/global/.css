@@ -1,4 +1,4 @@
-
+/* Estilos Globais e Reset */
 html, body, #root {
   margin: 0;
   padding: 0;
@@ -10,26 +10,16 @@ html, body, #root {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0f2f5; /* Um cinza claro, similar ao fundo do WhatsApp */
+  background-color: #f0f2f5; /* Um cinza claro */
 }
 
-/* Garante que o container principal da sua aplicação também ocupe todo o espaço */
-.App {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
+/* Estilo para blocos de código */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-/* Adicione esta classe ao container da sua página (como em ChatVideoRTC.tsx)
-   para garantir que ele se comporte corretamente dentro do layout flex. */
+/* Classe utilitária reutilizável em qualquer página */
 .page-container {
     width: 100%;
     height: 100%;
