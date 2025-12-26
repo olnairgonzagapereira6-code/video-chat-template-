@@ -1,3 +1,4 @@
+/* src/pages/Auth/Auth.css */
 
 .auth-container {
   display: flex;
@@ -5,7 +6,6 @@
   justify-content: center;
   min-height: 100vh;
   background-color: #f0f2f5;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -108,4 +108,4 @@
 
 .toggle-button strong {
   font-weight: 600;
-}
+  }
